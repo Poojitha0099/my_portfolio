@@ -177,8 +177,8 @@ const Home = () => {
                 transition={{ delay: 0.8 }}
               >
                 {[
-                  { icon: <Github size={24} />, href: "#", label: "GitHub" },
-                  { icon: <Linkedin size={24} />, href: "#", label: "LinkedIn" },
+                  { icon: <Github size={24} />, href: "https://github.com/Poojitha0099", label: "GitHub" },
+                  { icon: <Linkedin size={24} />, href: "https://www.linkedin.com/in/lakshmi-poojitha-inturi-370880268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", label: "LinkedIn" },
                   { icon: <Mail size={24} />, href: "mailto:inturipoojitha@gmail.com", label: "Email" }
                 ].map((social, index) => (
                   <motion.a
